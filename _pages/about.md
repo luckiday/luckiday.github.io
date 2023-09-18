@@ -4,7 +4,7 @@ title: about
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: > 
-   Currently updating my page. In the meantime, check out <a href="https://yqg.notion.site/">my Notion page</a>.
+   My page is undergoing updates. In the meantime, please explore <a href="https://yqg.notion.site/">my Notion page</a>.
 
 profile:
   align: right
