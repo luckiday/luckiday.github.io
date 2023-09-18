@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: > 
+   Currently updating my page. In the meantime, check out <a href="https://yqg.notion.site/">my Notion page</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: yq_profile.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>404 Westwood Plaza</p>
+    <p>Los Angeles, CA, USA</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,9 +20,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Ph.D. candidate in Computer Science at UCLA, mentored by Prof. Songwu Lu. I received my M.S. degree from UCLA in 2018 and my B.S. degree from Shanghai Jiao Tong University (SJTU) in 2016. 
+I obtained my Ph.D. in Computer Science from UCLA, mentored by [Prof. Songwu Lu](https://web.cs.ucla.edu/~slu/). I also received my M.S. from UCLA in 2018. Prior to that, I earned a B.S. from Shanghai Jiao Tong University (SJTU) in 2016, under the guidance of [Prof. Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/).
 
-My research is driven by a passion for assistive AR systems, visual-language interaction, and IoT/network security. I strive to create technology that empowers individuals and enhances their lives.
+Focused on AR/mobile systems and visual language interaction, my research is particularly centered around crafting assistive AR for daily life. I'm passionately dedicated to creating technology that uplifts and augments individual experiences.
+
+I am a member of the UCLA HandsOn Club and am currently studying American Sign Language (ASL). I also appreciate geometric abstraction art. Outside of academia, I enjoy off-roading and motorcycling.
+
 
 [//]: # (Write your biography here. Tell the world about yourself. Link to your favorite [subreddit]&#40;http://reddit.com&#41;. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.)
 

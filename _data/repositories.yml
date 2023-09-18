@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - luckiday
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - mobile-insight/mobileinsight-core
+  - mobile-insight/mobileinsight-mobile
+  - luckiday/LambDa
+  - luckiday/keras-self-attention
