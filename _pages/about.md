@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: >
-  My page is undergoing updates. In the meantime, please explore <a href="https://yqg.notion.site/">my Notion page</a>.
+#subtitle: >
+#  My page is undergoing updates. In the meantime, please explore <a href="https://yqg.notion.site/">my Notion page</a>.
 
 profile:
   align: right
