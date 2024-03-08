@@ -52,17 +52,16 @@ social: true  # includes social icons at the bottom of the page
 
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 
-I am currently a postdoctoral fellow at CUHK, working
-with [Prof. Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/) in the
-innovative [CUHK AIoT Lab](https://aiot.ie.cuhk.edu.hk/). My research, focusing on AR/mobile systems and visual language
-interaction, is primarily aimed at developing assistive AR for daily life. I am deeply committed to creating technology
-that enhances individual experiences.
+I am currently a postdoctoral fellow at CUHK, working with [Prof. Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/)
+in the innovative [CUHK AIoT Lab](https://aiot.ie.cuhk.edu.hk/). My research, focusing on AR/mobile systems and visual
+language interaction, is primarily aimed at developing assistive AR for daily life. I am deeply committed to creating
+technology that enhances individual experiences.
 
 I earned my Ph.D. in Computer Science from UCLA under the mentorship
 of [Prof. Songwu Lu](https://web.cs.ucla.edu/~slu/). I also obtained my M.S. from UCLA in 2018. Prior to that, I
 received a B.S. from Shanghai Jiao Tong University (SJTU) in 2016, guided
 by [Prof. Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/).
 
-A bit about me... I am actively exploring the intersection of technology and accessibility. I have visited more than 10
-organizations and groups committed to promoting accessibility in society. I also have a keen interest in geometric
-abstraction art. Additionally, I enjoy off-roading and motorcycling.
+A little about me... I am actively delving into the crossroads of technology and accessibility, having visited over 10
+organizations and groups dedicated to promoting societal accessibility. I also harbor a strong interest in modern art
+and photography ([@luckiday](https://www.instagram.com/luckiday/)). Lastly, I relish off-roading and motorcycling.
