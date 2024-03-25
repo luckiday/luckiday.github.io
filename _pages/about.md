@@ -62,6 +62,6 @@ of [Prof. Songwu Lu](https://web.cs.ucla.edu/~slu/). I also obtained my M.S. fro
 received a B.S. from Shanghai Jiao Tong University (SJTU) in 2016, guided
 by [Prof. Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/).
 
-A little about me... I am actively delving into the crossroads of technology and accessibility, having visited over 10
-organizations and groups dedicated to promoting societal accessibility. I also harbor a strong interest in modern art
-and photography ([@luckiday](https://www.instagram.com/luckiday/)). Lastly, I relish off-roading and motorcycling.
+A little about me... I am actively delving into the crossroads of technology and accessibility, having visited over 10 organizations and groups dedicated to promoting societal accessibility.
+I enjoy modern art and photography, and I use some cool shots from my collection ([YunqiGuo's Gallery](https://500px.com/p/YunqiGuo)) as my wallpapers.
+Lastly, I like off-roading and motorcycling.
