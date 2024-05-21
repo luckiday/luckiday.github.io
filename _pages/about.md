@@ -55,7 +55,7 @@ social: true  # includes social icons at the bottom of the page
 I am currently a postdoctoral fellow at CUHK, working with [Prof. Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/)
 in the innovative [CUHK AIoT Lab](https://aiot.ie.cuhk.edu.hk/). My research, focusing on AR/mobile systems and visual
 language interaction, is primarily aimed at developing assistive AR for daily life. I am deeply committed to creating
-technology that enhances individual experiences.
+technology that enhances life experiences.
 
 I earned my Ph.D. in Computer Science from UCLA under the mentorship
 of [Prof. Songwu Lu](https://web.cs.ucla.edu/~slu/). I also obtained my M.S. from UCLA in 2018. Prior to that, I
