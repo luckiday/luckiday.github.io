@@ -1,9 +1,10 @@
 ---
 layout: post
-date: 2024-02-29 00:00:00-0800
+date: 2023-11-15 00:00:00-0800
 inline: true
 related_posts: false
 ---
 
-☕️ I've started working at CUHK as a postdoctoral fellow. If you're interested in developing a cool AR/AI/IoT system,
-feel free to join our team for a coffee chat!
+🧑🏻‍💼 Delighted to have delivered an invited talk at the China Rehabilitation Research Center for Hearing and Speech
+Impairment. I discussed AI and wearable systems for assistive technologies and met inspiring frontline teachers and
+researchers.
