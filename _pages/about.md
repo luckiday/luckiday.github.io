@@ -64,5 +64,5 @@ by [Prof. Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/).
 
 *Fun facts about me…* I am actively exploring the intersection of technology and accessibility, having visited more than
 10 organizations and groups that promote societal accessibility. I have a passion for modern art and photography, and I
-use some fantastic shots from my collection, YunqiGuo's Gallery, as my wallpapers. Finally, I enjoy off-roading and
+use some shots from my collection, [YunqiGuo's Gallery](https://500px.com/p/YunqiGuo), as my wallpapers. Finally, I enjoy off-roading and
 motorcycling.
