@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-☕️ I've started working at CUHK as a postdoctoral fellow. If you're interested in developing a cool AR/AI/IoT system,
-feel free to join our team for a coffee chat!
+☕️ Thrilled to share I’ve been selected for the ACM MobiSys 2025 Rising Stars Forum! 🎉 Grateful for this honor to
+showcase my work on Assistive AR and IoT Systems. Let’s grab a coffee and chat about cool projects in SoCal!
