@@ -15,4 +15,5 @@ related_posts: false
 [//]: # (presented our work on Sensor+AR at the [FMSys]&#40;https://fmsys24.github.io/&#41;.)
 
 
-🏡 Working on a field study in nursing homes for 1 month.
+☕️ Thrilled to share I’ve been selected for the ACM MobiSys 2025 Rising Stars Forum! 🎉 Grateful for this honor to
+showcase my work on Assistive AR and IoT Systems. Let’s grab a coffee and chat about cool projects in SoCal!
