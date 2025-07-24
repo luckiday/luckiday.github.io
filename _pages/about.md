@@ -52,17 +52,17 @@ social: true  # includes social icons at the bottom of the page
 
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 
-I am currently a postdoctoral fellow at CUHK, working with [Prof. Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/)
-in the innovative [CUHK AIoT Lab](https://aiot.ie.cuhk.edu.hk/). My research, focusing on AR/mobile systems and visual
-language interaction, is primarily aimed at developing assistive AR for daily life. I am deeply committed to creating
-technology that enhances life experiences.
+I am a postdoctoral fellow at CUHK, working with[Prof. Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/) in
+the[CUHK AIoT Lab](https://aiot.ie.cuhk.edu.hk/). Before that, I earned my Ph.D. in Computer Science at UCLA
+under[Prof. Songwu Lu](https://web.cs.ucla.edu/~slu/). My work sits at the intersection of AR/mobile systems,
+visual–language interaction, and intelligent sensing, always from a user‑centered perspective. I push forward two
+complementary agendas: **accessibility tech that simplifies everyday interactions** and **AIoT‑based eldercare systems
+that enable healthy, independent aging**. By pairing rigorous systems research with field‑based design, I translate new
+computing ideas into practical impact.
 
-I earned my Ph.D. in Computer Science from UCLA under the mentorship
-of [Prof. Songwu Lu](https://web.cs.ucla.edu/~slu/). I also obtained my M.S. from UCLA in 2018. Prior to that, I
-received a B.S. from Shanghai Jiao Tong University (SJTU) in 2016, guided
-by [Prof. Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/).
+I also hold an M.S. from UCLA (2018) and a B.S. from Shanghai Jiao Tong University (2016), where I worked
+with[Prof. Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/).
 
-*Fun facts about me…* I am actively exploring the intersection of technology and accessibility, having visited more than
-10 organizations and groups that promote societal accessibility. I have a passion for modern art and photography, and I
-use some shots from my collection, [YunqiGuo's Gallery](https://500px.com/p/YunqiGuo), as my wallpapers. Finally, I enjoy off-roading and
-motorcycling.
+*Fun facts.* I regularly visit accessibility‑focused organizations to keep my research grounded. I’m an avid
+photographer—shots from my[Yunqi Guo’s Gallery](https://500px.com/p/YunqiGuo) often become my desktop wallpapers—and I
+unwind by off‑roading and motorcycling.
