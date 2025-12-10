@@ -24,6 +24,9 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          {%- if entry.award -%}
+            <div class="award" style="font-size: 0.75rem; margin-top: 0.25rem; color: #666; font-weight: 500;">{{entry.award}}</div>
+          {%- endif -%}
         {%- endif -%}
         </div>
 
@@ -129,9 +132,6 @@
         {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
-        </div>
-        <div class="periodical">
-          {{ entry.note | strip }}
         </div>
 
           <!-- Links/Buttons -->
