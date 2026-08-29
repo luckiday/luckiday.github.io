@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🌍 Traveled to visit several special education schools across regions.
+🌍 Traveled to visit special education schools across several regions.

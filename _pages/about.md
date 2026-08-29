@@ -32,5 +32,5 @@ I also hold an M.S. from UCLA (2018) and a B.S. from Shanghai Jiao Tong Universi
 with [Prof. Xinbing Wang](https://www.cs.sjtu.edu.cn/~wang-xb/).
 
 *Fun facts.* I regularly visit accessibility‑focused organizations to keep my research grounded. I’m an avid
-photographer—shots from my [Yunqi Guo’s Gallery](https://500px.com/p/YunqiGuo) often become my desktop wallpapers—and I
+photographer—shots from [my gallery](https://500px.com/p/YunqiGuo) often become my desktop wallpapers—and I
 unwind by off‑roading and motorcycling.

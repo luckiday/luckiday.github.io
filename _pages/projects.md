@@ -20,14 +20,14 @@ AnySign is a bidirectional sign-spoken language translation solution for assisti
 ### [MobileInsight](http://www.mobileinsight.net/) 
 [*Core Developer*]
 
-MobileInsight is the 1st open-source community tool that empowers fine-grained mobile network analytics inside smartphones. It has been used by researchers from more than 300+ academic and industrial institutes.
+MobileInsight is the first open-source community tool that empowers fine-grained mobile network analytics inside smartphones. It has been used by researchers from more than 300 academic and industrial institutions.
 
 ---
 
 ### [AceMap](https://www.acemap.info/) 
 [*Co-Founder*]
 
-AceMap is an academic search engine that visualizes relations of papers, topics, and authors based on large-scale metadata. It unfolds the trends and scholar relations to researchers.
+AceMap is an academic search engine that visualizes relations of papers, topics, and authors based on large-scale metadata. It reveals research trends and scholarly relationships to researchers.
 
 ---
 
