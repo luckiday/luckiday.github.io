@@ -14,8 +14,12 @@ repository and maintained separately.
 
 ## Updating the website copy
 
-After editing the sources, rebuild and copy the PDFs to where the CV page
-(`_pages/cv.md`) expects them:
+Just edit the sources and push to `master`: the `build-resume` GitHub Actions
+workflow compiles the LaTeX in CI, commits the fresh `assets/pdf/resume.pdf`
+(where the CV page `_pages/cv.md` embeds it), and the site redeploys
+automatically. No local LaTeX toolchain is required.
+
+To preview locally before pushing:
 
 ```bash
 latexmk -pdf main.tex
@@ -24,7 +28,7 @@ latexmk -C main.tex
 ```
 
 Compiled PDFs are intentionally not tracked inside this folder (see `.gitignore`);
-only the copies in `assets/pdf/` are committed.
+only the copy in `assets/pdf/` is committed.
 
 ## Requirements
 

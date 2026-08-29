@@ -1,0 +1,47 @@
+name: build-resume
+
+# Compiles the resume LaTeX sources whenever they change on master and commits
+# the fresh PDF to assets/pdf/resume.pdf. That commit only touches assets/, so
+# it does not retrigger this workflow, but it does trigger the normal site
+# deploy — pushing a .tex edit is enough to update the live site.
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "resume/**.tex"
+      - "resume/*.cls"
+      - ".github/workflows/build-resume.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: resume
+
+      - name: Copy PDF into site assets
+        run: cp resume/main.pdf assets/pdf/resume.pdf
+
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/resume.pdf
+          if git diff --cached --quiet; then
+            echo "Resume PDF unchanged; nothing to commit."
+          else
+            git commit -m "Rebuild resume PDF from LaTeX sources"
+            git push
+          fi

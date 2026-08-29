@@ -33,6 +33,10 @@ surface at build time. `_config.yml` changes require restarting `jekyll serve`.
   `JEKYLL_ENV=production` and force-pushes `_site/` to `gh-pages`
   (JamesIves/github-pages-deploy-action). Pull requests trigger a build-only check.
 - The custom domain is set via the `CNAME` file on `gh-pages` (`guoyunqi.com`).
+- Pushing changes to `resume/*.tex` or `resume/*.cls` on `master` triggers
+  `.github/workflows/build-resume.yml`, which compiles the LaTeX in CI and commits the
+  fresh `assets/pdf/resume.pdf` back to `master`; that commit then triggers the normal
+  deploy. So a resume edit only needs the .tex change pushed — no local LaTeX required.
 - `bin/deploy` is a legacy manual deploy script that does the same thing locally; don't use
   it unless GitHub Actions is unavailable.
 - `.github/workflows/deploy-image.yml` and `deploy-docker-tag.yml` are upstream-theme
@@ -62,7 +66,8 @@ Content lives in:
   RSS feed configured under `external_sources` in `_config.yml` (network fetch at build time).
 - `resume/` — LaTeX source of the resume (English only, see privacy note above). This folder
   is excluded from the Jekyll build; the site serves the compiled PDF from
-  `assets/pdf/resume.pdf`, embedded by `_pages/cv.md`. To update: edit the .tex, then
+  `assets/pdf/resume.pdf`, embedded by `_pages/cv.md`. To update: edit the .tex and push —
+  CI recompiles the PDF automatically (see the deploy section). To preview locally:
   `latexmk -pdf main.tex && cp main.pdf ../assets/pdf/resume.pdf && latexmk -C main.tex`
   (see `resume/README.md`).
 - `assets/pdf/` — paper PDFs, slides, and the resume PDF. `assets/img/` — profile photo and
