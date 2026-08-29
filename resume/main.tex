@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.8in,top=0.85in,right=0.8in,bottom=0.85in]{geometry} % Document margins
+\usepackage{hyperref, xcolor}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+
+\name{Yunqi Guo} % Your name
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=coolblack,
+    filecolor=coolblack,      
+    urlcolor=coolblack,
+}
+
+\address{
+    \faEnvelope\enspace \href{mailto:guoyunqi@gmail.com}{guoyunqi@gmail.com} \hspace{0.5cm}
+    \faGlobe\enspace\href{https://guoyunqi.com}{guoyunqi.com} \hspace{0.5cm}
+    \faGithub\enspace \href{https://github.com/luckiday}{github.com/luckiday} \\
+    \smallskip
+    \faMapMarker\enspace Ho Sin Hang Engineering Building, CUHK, Hong Kong 
+}
+
+\begin{document}
+
+\begin{rSection}{R\&D Interests}
+    My research sits at the intersection of IoT/AR/mobile systems, visual–language interaction, and intelligent sensing, with a user-centered perspective. I pursue two complementary agendas: accessibility tech simplifying everyday interactions and AIoT-based eldercare systems enabling healthy, independent aging.
+\end{rSection}
+
+\begin{rSection}{Education}
+
+\noindent
+\textbf{Ph.D., Computer Science}, \textbf{University of California, Los Angeles}, USA \hfill April 2018 - Sep. 2023 \\
+\textbf{Advisor}: Prof. Songwu Lu \\
+\textbf{Thesis}: {\small Enhancing Accessible Communication -- Assistive AR System in Bridging the Deaf and Hearing Divide}
+\smallskip
+
+\noindent
+\textbf{M.S., Computer Science}, \textbf{University of California, Los Angeles}, USA \hfill Sep. 2016 - March 2018 \\
+\textbf{Thesis}: {\small Key Reinstallation Attack in NB-IoT Network: Vulnerability and Cryptanalysis}
+\smallskip
+
+\noindent
+\textbf{B.S., Computer Science}, \textbf{Shanghai Jiao Tong University}, China \hfill Sep. 2012 - June 2016 \\
+\textbf{Advisor}: Prof. Xinbing Wang \\
+\textbf{Thesis}: {\small AceMap -- Mining and Visualizing Large-Scale Academic Relationship}
+
+\end{rSection}
+
+\begin{rSection}{Honors and Awards}
+\begin{list}{-}{\leftmargin=1.0em}
+\itemsep -0.5em 
+    \item[-] \textbf{Best Paper Award}, ACM MobiCom 2025 (for AquaScan)
+    \item[-] \textbf{Rising Star Award}, ACM MobiSys 2025 (for Assistive AR System)
+    \item[-] \textbf{Keynote Speaker}, MIMSVAI Workshop at UbiComp/ISWC 2025
+    % \item[-] Ranked in National Top 0.2\% in JEE Mains 2013
+\end{list}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection1}{The Chinese University of Hong Kong}{February 2024 -- Present}{Postdoctoral Fellow, working with Prof. Guoliang Xing}{}
+\item Lead the development of LLM-enhanced eldercare systems with privacy-preserving sensing, serving elderly communities in both urban and rural settings
+\item Collaborate with local nursing homes and hardware manufacturers to monitor over 80 elderly individuals, designing efficient models for embedded devices to provide real-time caregiver assistance
+\end{rSubsection1}
+
+\begin{rSubsection11}
+{University of California, Los Angeles}{April 2018 - Sep. 2023}{Graduate Student Researcher, Advisor: Prof. Songwu Lu}
+
+\item \textbf{AnySign:} A cross-device domain-oriented bidirectional sign language interaction system
+\begin{list}{-}{\leftmargin=1.0em}
+\itemsep -0.5em \vspace{-0.5em}
+    \item[-] Provided instant and accessible mobile sign language translation via assistive AR glasses
+    \item[-] Directed an interdisciplinary team of more than 10 members and collaborated with linguistics experts, the Deaf community, and smart glass vendors
+\end{list}
+
+\item \textbf{Assistive AR:} Mobile-assisted smart glasses for everyday assistance
+\begin{list}{-}{\leftmargin=1.0em}
+\itemsep -0.5em \vspace{-0.5em}
+    \item[-] Enabled ML/AI services on resource-constrained smart glasses with Bluetooth offloading;
+    \item[-] Improved AR services 10x for mega-events with scalable multi-view rendering and multicasting
+\end{list}
+
+\item \textbf{Model Security:} Designed lightweight, model-centric protection strategies tailored for IoT systems
+
+\item \textbf{Mobile Security \& Analytics:} Analyzed key reinstallation and SIM attacks in 5G and IoT networks
+
+\end{rSubsection11}
+
+\begin{rSubsection1}
+{IBM T.J. Watson Research Center}{June - Sep. 2019 \& 2020}{PhD Research Intern}{Manager: Dr. Petros Zerfos}
+\item Developed an attention-based model for multivariate time series analysis (1 US patent)
+\item Combined reinforcement learning and attention for dynamic time series dependency analysis
+\end{rSubsection1}
+
+\begin{rSubsection1}
+{Sohu.com Inc.}{June - Aug. 2017}{Machine Learning Intern}{}
+\item Examined factors impacting online news quality across various topics and performed classification
+\item Utilized attention models to detect low-quality news, enhancing Sohu's mobile platform experience
+\end{rSubsection1}
+
+\begin{rSubsection1}
+{Shanghai Jiao Tong University}{Sep. 2014 - June 2016}{Undergraduate Research Intern}{Supervisor: Prof. XinBing Wang and Prof. Kai Yu}
+\item Co-led AceMap: An academic search engine and recommendation system
+\item Directed a 25-member team to architect the graph mining infrastructure, enabling scalable visualization of academic relationships
+\end{rSubsection1}
+
+\end{rSection}
+
+\begin{rSection}{Systems and Tools}
+
+\begin{rProject}
+{AnySign}{founder, 2021-Present}
+{AnySign is a bidirectional sign-spoken language translation solution for smart glasses in collaboration with linguistic specialists, the Deaf community, and smart glasses vendors. It offers real-time sign recognition, translation, and production capabilities, all processed on mobile for immediate communication. Now under field trials with Deaf communities in California.}
+{http://anysign.net}
+\end{rProject}
+
+\begin{rProject}
+{MobileInsight}{core contributor, 2019-2021}
+{MobileInsight is the 1st open-source community tool that empowers fine-grained mobile network analytics inside smartphones. It has been used by researchers from more than 300+ academic and industrial institutes.}
+{http://www.mobileinsight.net}
+\end{rProject}
+
+\begin{rProject}
+{TinyGraphics.js}{core contributor, 2019-2021}
+{An open-source JavaScript 3D library designed to simplify the learning process of graphics and WebGL, benefiting over 1,000 computer graphics students.}
+{https://github.com/intro-graphics/tiny-graphics-js}
+\end{rProject}
+
+\begin{rProject}
+{AceMap}{co-founder, 2015-2016}
+{An academic search engine visualizing relations of papers, topics, and authors based on large-scale metadata. It unfolds the trends and scholar relations to researchers.}
+{https://www.acemap.info}
+\end{rProject}
+
+\end{rSection}
+
+\begin{rSection}{Selected Publications}
+
+\begin{rPublication}
+{AquaScan: A Sonar-based Underwater Sensing System for Human Activity Monitoring \textbf{[Best Paper Award]}}
+{Haozheng Hou, Bowen Zheng, Sitong Cheng, Xiaoguang Zhao, Peiheng Wu, Lixing He, \textbf{Yunqi~Guo}, Guoliang Xing, Zhenyu Yan}
+{ACM MobiCom '25}{2025}
+\end{rPublication}
+
+\begin{rPublication}
+{Assistive AR System for Enhancing Human-Human and Human-Environment Interactions}
+{\textbf{Yunqi Guo}}
+{ACM MobiSys '25 (Rising Star Forum)}{2025}
+\end{rPublication}
+
+\begin{rPublication}
+{Socialmind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions}
+{{Bufang Yang*}, \textbf{Yunqi Guo*}, {Lilin Xu*}, Zhenyu Yan, Hongkai Chen, Guoliang Xing, Xiaofan Jiang. (*Co-first authors)}
+{ACM IMWUT (UbiComp)}{2025}
+\end{rPublication}
+
+\begin{rPublication}
+{Sign-to-911: Emergency Call Service for Sign Language Users with Assistive AR Glasses}
+{\textbf{Yunqi Guo}, Jinghao Zhao, Boyan Ding, Congkai Tan, Weichong Ling, Zhaowei Tan, Hongzhe Du, Jennifer Miyaki, Songwu Lu.}
+{ACM MobiCom}{2023}
+\end{rPublication}
+
+\begin{rPublication}
+{LDRP: Device-Centric Latency Diagnostic and Reduction for Cellular Networks without Root}
+{Zhaowei Tan, Jinghao Zhao, Yuanjie Li, Yifei Xu, \textbf{Yunqi Guo}, Songwu Lu.}
+{IEEE TMC}{2023}
+\end{rPublication}
+
+\begin{rPublication}
+{A Model Obfuscation Approach to IoT Security}
+{\textbf{Yunqi Guo}*, Zhaowei Tan*, Kaiyuan Chen, Songwu Lu, Ying Nian Wu. (*Co-first author)}
+{IEEE CNS}{2021}
+\end{rPublication}
+
+\begin{rPublication}
+{On Key Reinstallation Attacks over 4G LTE Control-Plane: Feasibility and Negative Impact}
+{Muhammad Taqi Raza, \textbf{Yunqi Guo}, Songwu Lu, Fatima Muhammad Anwar}
+{ACM ACSAC}{2021}
+\end{rPublication}
+
+\begin{rPublication}
+{SecureSIM: Rethinking Authentication and Access Control for SIM/eSIM}
+{Jinghao Zhao, Boyan Ding, \textbf{Yunqi Guo}, Zhaowei Tan, Songwu Lu.}
+{ACM MobiCom}{2021}
+\end{rPublication}
+
+\begin{rPublication}
+{Data-Plane Signaling in Cellular IoT: Attacks and Defense}
+{Zhaowei Tan, Boyan Ding, Jinghao Zhao, \textbf{Yunqi Guo}, Songwu Lu.}
+{ACM MobiCom}{2021}
+\end{rPublication}
+
+\begin{rPublication}
+{Experience: a Five-Year Retrospective of MobileInsight}
+{Yuanjie Li, Chunyi Peng, Zhehui Zhang, Zhaowei Tan, Haotian Deng, Jinghao Zhao, Qianru Li, \textbf{Yunqi Guo}, Kai Ling, Boyan Ding, Hewu Li, Songwu Lu.}
+{ACM MobiCom}{2021}
+\end{rPublication}
+
+\begin{rPublication}
+{Towards Model-Centric Security for IoT Systems}
+{\textbf{Yunqi Guo}, Zhaowei Tan, Songwu Lu.}
+{IEEE ICCCN}{2020}
+\end{rPublication}
+
+\end{rSection}
+
+\begin{rSection}{Miscellaneous}
+\begin{itemize}
+  \item Founded \url{AnySign.net}, advancing AI-driven sign language access and global tech inclusion
+  \item Supported sign language interpretation at major tech conferences (e.g., MobiCom, CPS-IoT Week)
+  \item \textbf{Interests}: Regularly visit accessibility-focused organizations; avid photographer; off-roading and motorcycling
+\end{itemize}
+\end{rSection}
+
+\vspace{.5cm}
+\begin{center}
+---${\ast}\,{\ast}\,{\ast}$---
+\end{center}
+
+\end{document}
