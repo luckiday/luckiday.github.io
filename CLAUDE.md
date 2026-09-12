@@ -4,12 +4,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-Yunqi Guo's personal academic website (`luckiday/luckiday.github.io`, served at
-https://guoyunqi.com), built with Jekyll and the [al-folio](https://github.com/alshedivat/al-folio)
-theme. **This is a public repository**: everything committed here (including git history) is
-public forever. Do not commit personal information beyond what the site already publishes —
-in particular, the Chinese resume and anything with phone numbers or private addresses is
-intentionally kept out of this repo (it lives outside, in `~/Desktop/Yunqi_Resume`).
+Yunqi Guo's personal academic website (served at https://guoyunqi.com), built with Jekyll
+and the [al-folio](https://github.com/alshedivat/al-folio) theme.
+
+Two repositories are involved:
+
+- `luckiday/yq-page-source` (**private**) — this repo. Holds the source and the CI that
+  builds it. Nothing here is publicly readable.
+- `luckiday/luckiday.github.io` (**public**) — holds only the built site on `gh-pages`,
+  which is what GitHub Pages serves. Entirely machine-generated.
+
+Note that anything the build emits into `_site/` does become public, since the compiled
+site is served to the world. The privacy boundary is source-vs-output, not repo-vs-nothing:
+keep the Chinese resume and anything with phone numbers or private addresses out of both
+(it lives outside, in `~/Desktop/Yunqi_Resume`).
 
 ## Commands
 
@@ -27,18 +35,29 @@ surface at build time. `_config.yml` changes require restarting `jekyll serve`.
 
 ## Deploy pipeline
 
-- `master` holds the **source**; `gh-pages` holds the **built site** and is entirely
+- `master` in this private repo holds the **source**. `gh-pages` in the public
+  `luckiday/luckiday.github.io` repo holds the **built site** and is entirely
   machine-generated — never edit or commit to it by hand.
 - Pushing to `master` triggers `.github/workflows/deploy.yml`: it builds with
-  `JEKYLL_ENV=production` and force-pushes `_site/` to `gh-pages`
+  `JEKYLL_ENV=production` and force-pushes `_site/` to `gh-pages` in the public repo
   (JamesIves/github-pages-deploy-action). Pull requests trigger a build-only check.
-- The custom domain is set via the `CNAME` file on `gh-pages` (`guoyunqi.com`).
+- The cross-repo push authenticates with an SSH deploy key: the private half is the
+  `DEPLOY_KEY` secret on this repo, the public half is a write-enabled deploy key titled
+  `yq-page-source deploy` on `luckiday/luckiday.github.io`. Rotating one means replacing
+  both. The public repo's `PAGES_REPO` is set at the top of `deploy.yml`.
+- The custom domain comes from the root `CNAME` file (`guoyunqi.com`), which Jekyll copies
+  into `_site/` so every deploy carries it. Don't delete it — the domain breaks on the
+  next deploy if it stops landing on `gh-pages`.
+- DNS lives at Squarespace (inherited Google Domains nameservers): the apex has GitHub
+  Pages A records and `www` is a CNAME to `luckiday.github.io`. Moving the public repo or
+  renaming it means updating those records.
 - Pushing changes to `resume/*.tex` or `resume/*.cls` on `master` triggers
   `.github/workflows/build-resume.yml`, which compiles the LaTeX in CI and commits the
   fresh `assets/pdf/resume.pdf` back to `master`; that commit then triggers the normal
   deploy. So a resume edit only needs the .tex change pushed — no local LaTeX required.
-- `bin/deploy` is a legacy manual deploy script that does the same thing locally; don't use
-  it unless GitHub Actions is unavailable.
+- `bin/deploy` is a legacy manual deploy script from the single-repo days. It pushes
+  `gh-pages` to `origin`, which is now the private repo, so it no longer reaches the live
+  site. Don't use it.
 - `.github/workflows/deploy-image.yml` and `deploy-docker-tag.yml` are upstream-theme
   leftovers (Docker Hub publishing); the former is gated to the `alshedivat` org and inert.
 
