@@ -1,7 +1,8 @@
 # Yunqi Guo — Personal Website
 
-Source of [luckiday.github.io](https://luckiday.github.io), built with [Jekyll](https://jekyllrb.com/)
-and the [al-folio](https://github.com/alshedivat/al-folio) theme, hosted on GitHub Pages.
+Source of [guoyunqi.com](https://guoyunqi.com), built with [Jekyll](https://jekyllrb.com/)
+and the [al-folio](https://github.com/alshedivat/al-folio) theme. CI builds this repository and
+publishes the result to `luckiday/luckiday.github.io`, which GitHub Pages serves.
 
 ## Layout
 
